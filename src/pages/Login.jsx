@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
-import styles from "./Login.module.css";
-import PageNav from "../components/PageNav";
 import { useAuth } from "../contexts/AuthContext";
 import { useNavigate } from "react-router-dom";
+import styles from "./Login.module.css";
+import PageNav from "../components/PageNav";
+import Button from "../components/Button";
 
 export default function Login() {
   const [email, setEmail] = useState("jack@example.com");
@@ -49,7 +50,7 @@ export default function Login() {
         </div>
 
         <div>
-          <button>Login</button>
+          <Button type="primary">Login</Button>
         </div>
       </form>
     </main>

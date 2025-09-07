@@ -1,3 +1,28 @@
 {
-  "cities": []
+  "cities": [
+    {
+      "id": "4e6e",
+      "cityName": "Castello de la Plana",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2025-09-07T19:06:42.775Z",
+      "notes": "",
+      "position": {
+        "lat": "40.01604611654875",
+        "lng": "-0.006179809570312501"
+      }
+    },
+    {
+      "id": "9853",
+      "cityName": "Indianapolis",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2025-09-07T19:06:50.666Z",
+      "notes": "",
+      "position": {
+        "lat": "39.79073152478318",
+        "lng": "-86.2697982788086"
+      }
+    }
+  ]
 }
